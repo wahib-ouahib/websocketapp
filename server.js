@@ -13,4 +13,10 @@ app.use(express.static('./public'));
     //Socket setup
 const io = socket(server);
 
-io.on('connection',(socket)=>console.log('socket connection established'))
+io.on('connection',function(socket){
+    console.log('socket connection established | id:', socket.id);
+    socket.on('chat', function(data){
+        io.sockets.emit('chat', data);
+        console.log(data);
+    });
+})

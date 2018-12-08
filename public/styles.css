@@ -1,42 +1,46 @@
-body{
-    font-family: 'Nunito';
+
+#send{
+    font-size: 25px;
+    padding: 22px 20px;
+    font-weight: 500;
 }
 
 h2{
+    text-align: center;
     font-size: 18px;
-    padding: 10px 20px;
-    color: #575ed8;
+    padding: 22px 20px;
+    color: #0b448f;
 }
 
 #mario-chat{
     max-width: 600px;
     margin: 30px auto;
-    border: 1px solid #ddd;
-    box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
+    border: 2px solid rgb(102, 186, 201);
+    box-shadow: 5px 6px 5px rgba(0,0,0,0.05);
     border-radius: 2px;
 }
 
 #chat-window{
-    height: 400px;
+    height: 600px;
     overflow: auto;
-    background: #f9f9f9;
+    background: #cbe3f7;
 }
 
 #output p{
     padding: 14px 0px;
     margin: 0 20px;
     border-bottom: 1px solid #e9e9e9;
-    color: #555;
+    color: rgb(89, 198, 231);
 }
 
 #feedback p{
-    color: #aaa;
+    color: rgb(57, 170, 185);
     padding: 14px 0px;
     margin: 0 20px;
 }
 
 #output strong{
-    color: #575ed8;
+    color: #448be7;
 }
 
 label{
@@ -48,7 +52,7 @@ label{
 input{
     padding: 10px 20px;
     box-sizing: border-box;
-    background: #eee;
+    background: rgb(66, 186, 202);
     border: 0;
     display: block;
     width: 100%;
@@ -59,11 +63,18 @@ input{
 }
 
 button{
-    background: #575ed8;
+    background: #448be7;
     color: #fff;
     font-size: 18px;
     border: 0;
     padding: 12px 0;
     width: 100%;
     border-radius: 0 0 2px 2px;
+}
+
+#handle, #message {
+    font-size: 18px;
+    padding: 22px 20px;
+    color: #0b448f;
+    border: 1px solid rgb(102, 186, 201);
 }

@@ -3,8 +3,8 @@ simple real time chat app, socket.io, vanilla JS, bootstrap4, node, express
 
 ## review
 
-![](review/1.PNG)
-![](review/2.PNG)
-![](review/3.PNG)
-![](review/4.PNG)
-![](review/5.PNG)
+![](/review/1.png)
+![](review/2.png)
+![](review/3.png)
+![](review/4.png)
+![](review/5.png)

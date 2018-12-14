@@ -9,4 +9,5 @@ simple real time chat app, socket.io, vanilla JS, bootstrap4, node, express
 ## detecting if a user who joined the chat room is typing (real time)
 ![](review/3.png)
 ![](review/4.png)
+## In case of myltiple users
 ![](review/5.png)

@@ -1,7 +1,7 @@
 # Real time chat app
 ## simple real time chat app, socket.io, vanilla JS, bootstrap 4, node.js, express.js
 
-## review
+# review
 
 ## sending a message from user A to user B (after setting up nicknames) will appear in both UI's
 ![](/review/1.png)

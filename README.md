@@ -1,5 +1,5 @@
 # Real time chat app
-## simple real time chat app, socket.io, vanilla JS, bootstrap 4, node.js, express.js
+## simple real time chat app, socket.io, vanilla JS, bootstrap 4, node.j, express.js
 
 # Review
 
